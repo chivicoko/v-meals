@@ -290,8 +290,8 @@ cursor:pointer;
   color:var(--red-dark);
   transform:translateY(-2px)
 }
-/* Modal */
 
+/* Modal */
 .modal-overlay{
   position:fixed;
   top:0;
@@ -305,7 +305,7 @@ cursor:pointer;
   z-index:100;
 }
 .modal-container{
-  width:80vw;
+  width:50vw;
   max-width:800px;
   height:80vh;
   overflow:scroll;
@@ -313,7 +313,7 @@ cursor:pointer;
   border-radius:var(--borderRadius);
 }
 .modal-img{
-  height:15rem;
+  height:20rem;
    border-top-left-radius:var(--borderRadius);
     border-top-right-radius:var(--borderRadius);
 }
