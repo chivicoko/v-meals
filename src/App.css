@@ -221,14 +221,14 @@ ul {
 .remove-btn{
   margin-top:0.25rem;
   background:transparent;
-  color:var(--white);
-    border:transparent;
+  border:transparent;
   cursor:pointer;
-  font-size:0.5rem;
+  font-size:0.80rem;
   transition:var(--transition);
+  color:var(--red-dark)
 }
 .remove-btn:hover{
-  color:var(--red-dark)
+  color:var(--white);
 }
 /* Meals */
 .section,.section-center{
